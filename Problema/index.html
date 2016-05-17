@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Reloj Digital</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/main.css">
+	  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+	  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="container">
+		  <!-- Trigger the modal with a button -->
+
+				<div class="text-center">
+					<div class="reloj">
+					  <h2 id="horas" class="horas">11</h2>
+					  <h2>:</h2>
+					  <h2 id="minutos" class="minutos">48</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 left"></div>
+						<div class="col-lg-6 right"></div>
+					</div>
+		  			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrows" aria-hidden="true"></i></button>
+				</div>
+		  <!-- Modal -->
+		  <div class="modal fade" id="myModal" role="dialog">
+		    <div class="modal-dialog">
+
+		      <!-- Modal content-->
+		      <div class="modal-content">
+		        <div class="modal-header">
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        </div>
+		        <div class="modal-body">
+								<input type="checkbox" id="chicago"><p>Chicago</p></input>
+								<input type="checkbox" id="saopaulo"><p>Sao Paulo</p></input>
+								<input type="checkbox" id="santiago"><p>Santiago</p></input>
+								<input type="checkbox" id="mexico"><p>México</p></input>
+								<input type="checkbox"><p>Chicago</p></input>
+		        </div>
+
+		      </div>
+
+		    </div>
+		  </div>
+
+		</div>
+		</div>
+  		<script src="https://code.jquery.com/jquery-2.2.2.js"></script>
+		<script  src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+.fa-arrows {
+padding: 10px;
+color:black:
+}
+.text-center{
+  text-align: center;
+}
+.lista{
+  float: left;
+  display: none;
+}
+.listadoview {
+  display: block
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+h2{
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+}
+.btn-info , .btn-info:hover{
+    color: #fff;
+    background-color:  #c0c0c0;
+    border-color:  #c0c0c0;}
+input{
+    float: left;
+}
+.reloj{
+        margin-left: 520px;
+}
