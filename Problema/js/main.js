@@ -5,7 +5,17 @@
     $('.right').append("12:30");
   });
 */
-
+var array=[
+	{
+		pais:"Chicago",
+		zonahoraria:-5,
+	},{
+		pais:"Sao Paulo",
+		zonahoraria:-3,
+	},{
+		pais:"Santiago",
+		zonahoraria:-4,
+	}];
 (function(){
 	var actualizarHora = function(){
 		var fecha = new Date();
@@ -21,14 +31,11 @@
 	           var intervalo = setInterval(actualizarHora, 1000);
            }())
 
-           var gmt=horas+5;
+		   var gmt=horas+5;
+		   $('#check').change(function(){
+		    var i=$('#check').val();
+		    if(i==1) {
+		        $('#horas').html("hola")
+			}
 
-    $('#chicago').click(function(){
-    $('.horas').replaceWith("<h2>"gmt-5"</h2>");
-    });
-    $('#saopaulo').click(function(){
-    $('.horas').replaceWith(gmt-3);
-    });
-    $('#santiago').click(function(){
-    $('.horas').replaceWith(gmt-4);
 });
